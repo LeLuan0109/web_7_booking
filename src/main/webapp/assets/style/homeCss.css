@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+.container-homes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin: 16px;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 16px;
+    display: flex;
+    width: calc(33.33% - 32px);
+    flex-basis: calc(33.33% - 32px);
+}
+.container-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.img-item {
+    height: 166px;
+    border-radius: 15px;
+    width: 166px;
+    margin-right: 22px;
+    padding: 0px;
+}
